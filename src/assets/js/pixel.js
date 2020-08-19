@@ -29,7 +29,7 @@ $(document).ready(function () {
         });
 
         // $preloader.delay(1500).fadeOut(400);
-        $preloader.delay(1200).slideUp();
+        $preloader.delay(1000).slideUp();
     }
 
     // options
