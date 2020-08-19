@@ -1,0 +1,154 @@
+<!--
+
+=========================================================
+* Pixel Pro Bootstrap 4 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Pixel Pages - My items"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-dark navbar-theme-primary"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+
+        <div class="section section-header">
+            <div class="container">
+                <div class="row mb-4 mt-4">
+                    <div class="col-12">
+                        <nav>
+                            <div class="nav nav-tabs flex-column flex-md-row border-light" id="nav-tab"
+                                role="tablist">
+                                <a href="./my-account.html" class="nav-item nav-link text-dark mr-3"><span class="far fa-user mr-2"></span>My account</a>
+                                <a href="./my-items.html" class="nav-item text-dark nav-link active"><span class="far fa-list-alt mr-2"></span>My items</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card border-light p-4">
+                            <table class="table table-responsive font-small">
+                                <thead class="thead-inverse">
+                                    <tr>
+                                        <th class="h6 py-4 border-0">ID</th>
+                                        <th class="h6 py-4 border-0">Name</th>
+                                        <th class="h6 py-4 border-0">Location</th>
+                                        <th class="h6 py-4 border-0">Price</th>
+                                        <th class="h6 py-4 border-0">Metrics</th>
+                                        <th class="h6 py-4 border-0">Requests</th>
+                                        <th class="h6 py-4 border-0">Impressions</th>
+                                        <th class="h6 py-4 border-0">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="option h6 font-weight-light">#12</td>
+                                        <td><a href="./edit-item.html">Item name 1</a></td>
+                                        <td>Vancouver, Canada</td>
+                                        <td>$200/month</td>
+                                        <td>Lorem ipsum</td>
+                                        <td>2</td>
+                                        <td>1232</td>
+                                        <td>
+                                            <a href="./edit-item.html" class="text-dark" aria-label="edit button" data-toggle="tooltip" title="Edit item"><span class="far fa-edit mr-2"></span></a>
+                                            <a href="#" data-toggle="modal" aria-label="delete button" data-target="#modal-confirm-delete" class="text-danger"><span class="far fa-trash-alt" data-toggle="tooltip" title="Delete item"></span></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="option h6 font-weight-light">#13</td>
+                                        <td><a href="./edit-item.html">Item name 2</a></td>
+                                        <td>New York, United States</td>
+                                        <td>$650/month</td>
+                                        <td>Lorem ipsum</td>
+                                        <td>31</td>
+                                        <td>9316</td>
+                                        <td>
+                                            <a href="./edit-item.html" class="text-dark" aria-label="edit button" data-toggle="tooltip" title="Edit item"><span class="far fa-edit mr-2"></span></a>
+                                            <a href="#" data-toggle="modal" aria-label="delete button" data-target="#modal-confirm-delete" class="text-danger"><span class="far fa-trash-alt" data-toggle="tooltip" title="Delete item"></span></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Previous</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">5</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="modal-confirm-delete" tabindex="-1" role="dialog" aria-labelledby="modal-confirm-delete" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body pb-3">
+                    <p class="modal-title text-center mt-2 mb-0" id="modal-title-default">Are you sure you want to delete this item?</p> 
+                </div>
+                <div class="modal-footer border-0 pt-2 d-flex justify-content-center">
+                    <button data-dismiss="modal" class="btn btn-sm btn-outline-dark mr-2">Cancel</button>
+                    <button class="btn btn-sm btn-primary animate-up-2">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('./_footer.html', {
+        "path": "../..",
+        "classes": "bg-primary text-white"
+    })
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>

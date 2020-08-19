@@ -1,0 +1,61 @@
+{
+    "name": "pixel-pro-ui-kit",
+    "version": "3.1.0",
+    "description": "Premium Bootstrap UI Kit",
+    "main": "gulpfile.js",
+    "author": "Themesberg",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "uikit",
+        "bootstrap",
+        "accessible"
+    ],
+    "homepage": "https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit",
+    "bugs": {
+        "email": "support@themesberg.com"
+    },
+    "license": "https://themesberg.com/licensing",
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "4.1.1",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-cssbeautify": "1.0.1",
+        "gulp-header": "2.0.7",
+        "gulp-htmlmin": "5.0.1",
+        "gulp-plumber": "1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-sourcemaps": "2.6.5",
+        "gulp-uglify": "3.0.2",
+        "gulp-file-include": "2.1.0",
+        "gulp-wait": "0.0.2",
+        "merge-stream": "2.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.11.2",
+        "bootstrap": "4.4.1",
+        "bootstrap-datepicker": "1.9.0",
+        "bootstrap-tagsinput": "0.7.1",
+        "chart.js": "3.0.0-alpha",
+        "headroom.js": "0.10.3",
+        "jarallax": "1.12.0",
+        "jquery": "3.4.1",
+        "jquery-countdown": "2.2.0",
+        "jquery-validation": "1.19.1",
+        "jquery.counterup": "2.1.0",
+        "nouislider": "11.0.3",
+        "onscreen": "1.3.4",
+        "owl.carousel": "2.3.4",
+        "popper.js": "1.16.0",
+        "prismjs": "1.17.1",
+        "smooth-scroll": "^16.1.0",
+        "sticky-sidebar": "3.3.1",
+        "vivus": "^0.4.5",
+        "waypoints": "4.0.1"
+    }
+}

@@ -1,0 +1,173 @@
+<!--
+
+=========================================================
+* Pixel Pro Bootstrap 4 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Contact | ACE"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-dark navbar-theme-primary"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+
+        <!-- Hero -->
+        <section class="section section-header pb-11 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-8 text-center">
+                        <h1 class="display-2 mb-3">Contact</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit.
+
+                        </p>        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section -->
+        <div data-aos="fade" class="section py-0">
+            <div class="container mt-n10">
+                <div class="row">
+                    <div class="col-12">
+                        <iframe class="map rounded" id="gmap_canvas" src="https://maps.google.com/maps?q=Franseweg%2031&t=&z=8&ie=UTF8&iwloc=&output=embed"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section -->
+        <section class="section section-lg pb-0 pt-6">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-lg-6">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <!-- Contact Card -->
+                        <div class="card border-0 p-2 p-md-3">
+                            <div class="card-body px-0">
+                                <div class="row">
+                                    <div data-aos="fade" class="col-sm-6 col-lg-4 text-center">
+                                        <!-- Visit Box -->
+                                        <div class="icon-box mb-4">
+                                            <div class="icon icon-dark mb-4">
+                                                <span class="fas fa-map-marker-alt"></span>
+                                            </div>
+                                            <h2 class="h5 icon-box-title">Bezoek ons</h2>
+                                            <span>
+                                                Franseweg 31
+                                                <br>2920, Schoten
+                                            </span>
+                                        </div>
+                                        <!-- End of Visit Box -->
+                                    </div>
+                                    <div data-aos="fade" class="col-sm-6 col-lg-4 text-center">
+                                        <!-- Call Box -->
+                                        <div class="icon-box mb-4">
+                                            <div class="icon icon-dark mb-4">
+                                                <span class="fas fa-phone-volume"></span>
+                                            </div>
+                                            <h2 class="h5 icon-box-title">Tel.</h2>
+                                            <span>+32 3 640 01 60</span>
+                                            <div class="text-small text-gray">
+                                                Ma - Vr, 09:00 - 16:00
+                                            </div>
+                                        </div>
+                                        <!-- End of Call Box -->
+                                    </div>
+                                    <div data-aos="fade" class="col-sm-6 col-lg-4 text-center">
+                                        <!-- Email Box -->
+                                        <div class="icon-box mb-4">
+                                            <div class="icon icon-dark mb-4">
+                                                <span class="far fa-paper-plane"></span>
+                                            </div>
+                                            <h2 class="h5 icon-box-title">E-mail</h2>
+                                            <a href="mailto:info@abc-groep.be">info@abc-groep.be</a>
+                                        </div>
+                                        <!-- End of Email Box -->
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <!-- Contact Card -->
+                                        <div class="card border-0 p-2 p-md-3 p-lg-5">
+                                            <div data-aos="fade" class="card-header text-center">
+                                                <h2>Hulp nodig? Een opmerking?</h2>
+                                                <p>Neem contact met ons op.</p>
+                                            </div>
+                                            <div data-aos="fade" class="card-body pt-0">
+                                                <form>
+                                                    <!-- Form -->
+                                                    <div class="form-group">
+                                                        <label for="nameInputIcon2">Naam</label>
+                                                        <div class="input-group mb-4">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><span class="far fa-user-circle"></span></span>
+                                                            </div>
+                                                            <input class="form-control" id="nameInputIcon2" placeholder="bv. Bonnie Green" type="text" aria-label="contact name input" required>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Form -->
+                                                    <div class="form-group">
+                                                        <label for="emailInputIcon2">E-mail</label>
+                                                        <div class="input-group mb-4">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><span class="far fa-envelope"></span></span>
+                                                            </div>
+                                                            <input class="form-control" id="emailInputIcon2" placeholder="example@company.com" type="email" aria-label="contact email input">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Form -->
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlTextarea2">Bericht</label>
+                                                        <textarea class="form-control" placeholder="Typ hier uw bericht..." id="exampleFormControlTextarea2" rows="4"></textarea>
+                                                    </div>
+                                                    <!-- End of Form -->
+                                                    <button type="submit" class="btn btn-block rounded btn-secondary">Verstuur bericht</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- End of Contact Card -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Contact Card -->
+                    </div>
+                </div>
+             
+            </div>
+        </section>
+        <!-- End of section -->
+    </main>
+    @@include('./_footer.html', {
+        "path": "../..",
+        "classes": "bg-dark text-white"
+    })
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>
