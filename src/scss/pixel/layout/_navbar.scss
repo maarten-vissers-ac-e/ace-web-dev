@@ -2,6 +2,7 @@
  * = Navigation bars
  */
 
+
 .navbar-main {
     position: absolute;
     top: 0;
@@ -13,6 +14,11 @@
         background-image: $navbar-dark-toggler-icon-bg;
     }
 }
+
+.nav-color {
+    background: linear-gradient(-45deg, #a5374b, #942f42, #812637, #6e1d2c) !important;
+}
+
 
 .navbar .navbar-nav {
 
