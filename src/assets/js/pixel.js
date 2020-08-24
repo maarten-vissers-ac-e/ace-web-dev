@@ -18,6 +18,16 @@
 "use strict";
 $(document).ready(function () {
 
+    //header
+    window.onscroll = function() {
+        if ($(window).scrollTop() != 0) {
+            $("nav").addClass('nav-color');
+        }
+        else {
+            $("nav").removeClass('nav-color');
+        }
+    }
+
     // preloader
     var $preloader = $('.preloader');
     if($preloader.length) {

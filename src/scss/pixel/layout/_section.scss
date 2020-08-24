@@ -12,8 +12,9 @@
     position: relative;
     padding-top: $spacer * 7;
     padding-bottom: $spacer * 3;
-    background: linear-gradient(-45deg, white, white, #ce4a62, #6e1d2c);
+    background: linear-gradient(-45deg, white, white, $secondary, $primary);
     background-size: 400% 400%;
+
     //animation: gradient 15s ease infinite;
 }
 
